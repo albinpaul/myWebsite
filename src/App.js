@@ -1,24 +1,24 @@
-import logo from './logo.svg';
 import './App.css';
 
+import Header from './components/Header';
+import WorkExperience from './components/WorkExperience';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+ 
+      <div class="">
+        <Header></Header>
+      
+        <main class="">
+          <h1>Albin Paul</h1>
+          <p class="lead">I am a Full Stack Software Engineer. 
+          I have about 4 years of experience working in IT industry. 
+          I have worked as a software engineer and a devops engineer.</p>
+        </main>  
+        <WorkExperience>
+
+        </WorkExperience>
+     </div>
+      
   );
 }
 
