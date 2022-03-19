@@ -13,7 +13,7 @@ class Achievements extends React.Component{
         const {achievements} = this.state;
         return (
             <section id="achievements">
-                <h1>Achievements</h1>
+                <h1 className="container">Achievements</h1>
                 {
                     achievements.map(
                         achievement => (

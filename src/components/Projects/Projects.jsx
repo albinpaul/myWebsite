@@ -20,9 +20,8 @@ class Projects extends React.Component{
                 {
                     projects.map(
                         certificate => (
-                            <div class="project">
-
-                                <a href={certificate.link}>{certificate.title}</a>
+                            <div className="project">
+                               <h2 className="section__subtitle"><a className="" href={certificate.link}>{certificate.title}</a></h2>
                                <p>{certificate.description}</p>
                             </div>
                         ) 

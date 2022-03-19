@@ -18,11 +18,11 @@ class Certificates extends React.Component{
         const {certificates} = this.state;
         return (
             <section id="certificates">
-                <h1>Certificates</h1>
+                <h1 className="section__title">Certificates</h1>
                 {
                     certificates.map(
                         certificate => (
-                            <div class="certificate">
+                            <div className="certificate">
                                 <a href={certificate.link}>{certificate.title}</a>
                                
                             </div>

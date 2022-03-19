@@ -17,12 +17,12 @@ class Education extends React.Component{
         const {educations} = this.state;
         return (
             <section id="educations">
-                <h1>Education</h1>
+                <h1 className="section__title">Education</h1>
                 {
                     educations.map(
                         education => (
-                            <div class="education">
-                                <h2><a href={education.instituteLink}>{education.institute}</a></h2>
+                            <div className="education">
+                              <h2 className="section__subtitle"><a href={education.instituteLink}>{education.institute}</a></h2>
                                <h3>{education.course}</h3>
                                <TimeRange startDate = {education.startDate} 
                                     endDate = {education.endDate}></TimeRange>

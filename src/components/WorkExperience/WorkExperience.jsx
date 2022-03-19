@@ -34,13 +34,12 @@ class WorkExperience extends React.Component{
         const {jobs} = this.state;
         return (
             <section id="workexperience">
-                <h1>Work Experience</h1>
+                <h1 className="section__title">Work Experience</h1>
                 {
                     jobs.map(
                         job => (
-                            <div class="job">
-                                <h2>{job.company}</h2>
-                                <h3>{job.title}</h3>
+                            <div className="container">
+                                <h2 className="section__subtitle job__title"> {job.title} at {job.company} </h2>
                                 <ol>
                                     {job.description.map(
                                         point => <li> {point}</li>
