@@ -3,7 +3,8 @@ import React from "react";
 
 class Header extends React.Component{
     render(){
-        return (
+      console.log(this.props);
+      return (
         <header class="">
             <div class="">
               <div class="">
@@ -12,11 +13,16 @@ class Header extends React.Component{
                 </a>
         
                 <ul class="">
-                  <li><a href="#" class="">Home</a></li>
+                  {
+                    this.props.header.map(
+                    section => <li><a href = { "#" + section.id} class="">{section.label}</a></li>   
+                    )
+                  }
+                  {/* <li><a href="#" class="">Home</a></li>
                   <li><a href="#" class="">Work Experience</a></li>
                   <li><a href="#" class="">Projects</a></li>
                   <li><a href="#" class="">Certifications</a></li>
-                  <li><a href="#" class="">About</a></li>
+                  <li><a href="#" class="">About</a></li> */}
                   <li><a href="#" class="">
                         <img src="https://github.com/mdo.png" alt="mdo" width="32" height="32" class="rounded-circle"/>
                     </a>
