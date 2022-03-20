@@ -23,7 +23,7 @@ class Certificates extends React.Component{
                     certificates.map(
                         certificate => (
                             <div className="certificate">
-                                <a href={certificate.link}>{certificate.title}</a>
+                                {certificate.title}  <a href={certificate.link} target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                                
                             </div>
                         ) 

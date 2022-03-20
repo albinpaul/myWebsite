@@ -35,11 +35,10 @@
 body {
     background: var(--clr-light);
     color: var(--clr-dark);
-    margin: 0;
     font-family: var(--ff-primary);
     font-size: var(--fs-body);
     line-height: 1.6;
-    padding: 0 1rem;
+    margin: 0 1rem;
 }
 
 img {
@@ -61,9 +60,14 @@ h3 {font-size: var(--fs-h3);}
     margin: 0;
     font-size: var(--fs-h3);
     background: var(--clr-accent);
+    padding: 0.2rem;
 }
 
 p {
     word-break: break-all;
     white-space: normal;
+}
+
+section {
+    border-color: var(--clr-dark);
 }

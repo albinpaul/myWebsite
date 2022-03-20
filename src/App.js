@@ -41,7 +41,7 @@ function App() {
       <div class="">
         <Header header={header}></Header>
       
-        <main class="">
+        <main className="">
           <h1>Albin Paul</h1>
           <p class="lead">I am a Full Stack Software Engineer. 
           I have 4 years of total work experience. I have worked 3 years as a Software Engineer and 1 year as a

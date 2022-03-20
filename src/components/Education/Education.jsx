@@ -1,6 +1,7 @@
 import React from "react";
 import TimeRange from "../TimeRange/TimeRange";
 
+
 class Education extends React.Component{
     state = {
         educations: [
@@ -22,7 +23,7 @@ class Education extends React.Component{
                     educations.map(
                         education => (
                             <div className="education">
-                              <h2 className="section__subtitle"><a href={education.instituteLink}>{education.institute}</a></h2>
+                              <h2 className="section__subtitle">{education.institute} <a href={education.instituteLink} target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a></h2>
                                <h3>{education.course}</h3>
                                <TimeRange startDate = {education.startDate} 
                                     endDate = {education.endDate}></TimeRange>
