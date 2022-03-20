@@ -1,0 +1,7 @@
+.header_items{
+    display: flex;
+    justify-content: space-evenly;
+}
+.header_item{
+    /* margin: 1rem; */
+}

@@ -1,6 +1,6 @@
 import './App.css';
 
-import Header from './components/Header';
+import Header from './components/Header/Header';
 import WorkExperience from './components/WorkExperience/WorkExperience';
 import Certificates from './components/Certificates/Certificates';
 import Projects from './components/Projects/Projects';

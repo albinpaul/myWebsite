@@ -39,6 +39,7 @@ body {
     font-family: var(--ff-primary);
     font-size: var(--fs-body);
     line-height: 1.6;
+    padding: 0 1rem;
 }
 
 img {
@@ -62,4 +63,7 @@ h3 {font-size: var(--fs-h3);}
     background: var(--clr-accent);
 }
 
-
+p {
+    word-break: break-all;
+    white-space: normal;
+}
