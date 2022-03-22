@@ -1,6 +1,6 @@
 import React from "react";
 import './Header.css';
-
+import logo from './logo.jpeg';
 class Header extends React.Component{
     render(){
       console.log(this.props);
@@ -13,11 +13,13 @@ class Header extends React.Component{
             <div class="header_items">
               {
                 this.props.header.map(
-                section => <div className="header_item"><a href = { "#" + section.id} class="">{section.label}</a></div>   
+                  section => <div className="header_item">
+                    <a href = { "#" + section.id} class="">{section.label}</a>
+                  </div>   
                 )
               }
               <div>
-                <img src="https://github.com/mdo.png" alt="mdo" width="32" height="32" class="rounded-circle"/>
+                <img src={logo} alt="logo" width="32" height="42" class="rounded-circle"/>
               </div>
             </div>
           </div>

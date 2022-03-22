@@ -22,9 +22,8 @@ class Certificates extends React.Component{
                 {
                     certificates.map(
                         certificate => (
-                            <div className="certificate">
-                                {certificate.title}  <a href={certificate.link} target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                               
+                            <div className="certificate"> 
+                                {certificate.title} <a href={certificate.link} target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                             </div>
                         ) 
                     )

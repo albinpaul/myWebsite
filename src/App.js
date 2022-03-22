@@ -7,6 +7,7 @@ import Projects from './components/Projects/Projects';
 import Education from './components/Education/Education';
 import Achievements from './components/Achievements/Achievements';
 
+import Intro from './components/intro/intro';
 function App() {
   let content = [
     {
@@ -40,14 +41,7 @@ function App() {
  
       <div class="">
         <Header header={header}></Header>
-      
-        <main className="">
-          <h1>Albin Paul</h1>
-          <p class="lead">I am a Full Stack Software Engineer. 
-          I have 4 years of total work experience. I have worked 3 years as a Software Engineer and 1 year as a
-DevOps Engineer. My primary toolset is in C++, Java, SQL and Python. In my spare time, I love
-contributing back to the community via Stackoverflow.</p>
-        </main>  
+        <Intro/>
         {
           content.map(section => section.content)
         }

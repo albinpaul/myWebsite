@@ -1,0 +1,23 @@
+main{
+    padding: 0 1rem;
+    display: flex;
+}
+
+.my__description{
+    padding: 0 1rem;
+}
+#main_photo{
+    /* display: none; */
+    margin: 1rem;
+    margin-right: 2rem;
+    object-fit: cover;
+    width: auto;
+    height: auto;
+}
+
+.intro{
+    margin-top: 2rem;
+}
+.contact_icons{
+    margin: 0.5rem;
+}
