@@ -1,0 +1,7 @@
+.education_intro{
+    display: flex;
+    justify-content: space-between;
+}
+.education_intro p {
+    margin: 0;
+}

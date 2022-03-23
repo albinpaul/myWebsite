@@ -8,6 +8,7 @@ import Education from './components/Education/Education';
 import Achievements from './components/Achievements/Achievements';
 
 import Intro from './components/intro/intro';
+import Publications from './components/Publications/Publications';
 function App() {
   let content = [
     {
@@ -16,14 +17,19 @@ function App() {
       "content": <WorkExperience/>
     },
     {
-      "label" : "Certificates",
-      "id": "certificates",
-      "content": <Certificates/>
-    },
-    {
       "label" : "Projects",
       "id": "projects",
       "content": <Projects/>
+    },
+    {
+      "label" : "Publications",
+      "id": "publications",
+      "content": <Publications/>
+    },
+    {
+      "label" : "Certificates",
+      "id": "certificates",
+      "content": <Certificates/>
     },
     {
       "label" : "Education",

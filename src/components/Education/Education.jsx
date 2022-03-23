@@ -1,6 +1,6 @@
 import React from "react";
 import TimeRange from "../TimeRange/TimeRange";
-
+import './education.css';
 
 class Education extends React.Component{
     state = {
@@ -8,7 +8,7 @@ class Education extends React.Component{
             {
                 "institute": "Model Engineering College",
                 "instituteLink": "http://www-mec.mec.ac.in/mec/index.php",
-                "course": "Btech Computer Engineering ",
+                "course": "Btech Computer Engineering",
                 "startDate": new Date(2014, 5, 4), 
                 "endDate": new Date(2018,5 ,4) 
             }
@@ -24,9 +24,11 @@ class Education extends React.Component{
                         education => (
                             <div className="education">
                               <h2 className="section__subtitle">{education.institute} <a href={education.instituteLink} target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a></h2>
-                               <h3>{education.course}</h3>
-                               <TimeRange startDate = {education.startDate} 
-                                    endDate = {education.endDate}></TimeRange>
+                                <div className="education_intro">
+                                    <h3>{education.course}</h3>
+                                    <TimeRange startDate = {education.startDate} 
+                                        endDate = {education.endDate}></TimeRange>
+                                </div>
                             </div>
                         ) 
                     )

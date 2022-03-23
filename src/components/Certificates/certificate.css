@@ -1,0 +1,10 @@
+.certificate{
+    display: flex;
+    margin-bottom: 1rem;
+    align-items: center;
+}
+.certificate_img{
+    height: 3rem;
+    width: 3rem;
+    margin-right: 1rem;
+}

@@ -3,9 +3,9 @@
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&family=Source+Sans+Pro:wght@300&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 :root{
-    --ff-primary: 'Source Sans Pro', sans-serif;
+    --ff-secondary: 'Open Sans', sans-serif; 
     --ff-primary: 'Source Code Pro', monospace;
     --fw-reg: 300;
     --fw-bold: 900;
@@ -51,6 +51,7 @@ img {
 h1, h2, h3 {
     line-height: 1.1;
     margin: 0;
+  
 }
 
 h1 {font-size: var(--fs-h1);}
@@ -58,10 +59,11 @@ h2 {font-size: var(--fs-h2);}
 h3 {font-size: var(--fs-h3);}
 
 .section__subtitle {
-    margin: 0;
+    margin: 1rem 0;
     font-size: var(--fs-h3);
     background: var(--clr-accent);
     padding: 0.2rem;
+
 }
 
 p {
@@ -77,4 +79,10 @@ section {
     border-style: solid;
     border-spacing: 4rem;
     border-radius: 0.3rem;
+}
+
+
+.tools{
+    display: flex;
+    flex-wrap: wrap;
 }
