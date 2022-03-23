@@ -9,7 +9,7 @@ class Projects extends React.Component{
         projects: [
             {
                 "title": "Automating Acceptance test in VM",
-                "description": "Automate long acceptance test in my Virtual Machine and made slack integration.",
+                "description": "Created a Jenkins pipeline in my Virtual Machine to run acceptance tests and made slack integration for status update.",
                 "imageSrcs": [
                     jenkinsImage,
                     SlackIntegration
