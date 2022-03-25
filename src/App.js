@@ -36,11 +36,11 @@ function App() {
       "id": "educations",
       "content": <Education/>
     },
-    {
-      "label" : "Achievements",
-      "id": "achievements",
-      "content": <Achievements/>
-    },
+    // {
+    //   "label" : "Achievements",
+    //   "id": "achievements",
+    //   "content": <Achievements/>
+    // },
   ]
   let header = content.map(section => ({ "id": section.id, "label": section.label}))
   return (

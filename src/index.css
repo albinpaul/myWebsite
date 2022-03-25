@@ -32,7 +32,10 @@
 
 
 /* General Styles */
-
+a {
+    text-decoration: none;
+    color: inherit;
+}
 body {
     background: var(--clr-light);
     color: var(--clr-dark);

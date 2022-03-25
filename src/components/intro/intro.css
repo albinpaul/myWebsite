@@ -21,3 +21,8 @@ main{
 .contact_icons{
     margin: 0.5rem;
 }
+
+.intro_row{
+    display: flex;
+    justify-content: space-between;
+}
