@@ -1,18 +1,16 @@
 {
   "files": {
     "main.css": "/mywebsite/static/css/main.50545c49.css",
-    "main.js": "/mywebsite/static/js/main.04d9a206.js",
-    "static/media/SlackIntegration.png": "/mywebsite/static/media/SlackIntegration.7616d04ab5f2d0106948.png",
-    "static/media/JenkinsJob.png": "/mywebsite/static/media/JenkinsJob.cd457fa613e0dc21afc2.png",
+    "main.js": "/mywebsite/static/js/main.6a41e26b.js",
     "static/media/profile.jpeg": "/mywebsite/static/media/profile.405dcd3d83d5bb60c175.jpeg",
     "static/media/logo.jpeg": "/mywebsite/static/media/logo.d0cdb1758cb9ccf20688.jpeg",
     "static/media/ijcsma.webp": "/mywebsite/static/media/ijcsma.9ecce289710b5bab1feb.webp",
     "index.html": "/mywebsite/index.html",
     "main.50545c49.css.map": "/mywebsite/static/css/main.50545c49.css.map",
-    "main.04d9a206.js.map": "/mywebsite/static/js/main.04d9a206.js.map"
+    "main.6a41e26b.js.map": "/mywebsite/static/js/main.6a41e26b.js.map"
   },
   "entrypoints": [
     "static/css/main.50545c49.css",
-    "static/js/main.04d9a206.js"
+    "static/js/main.6a41e26b.js"
   ]
 }
