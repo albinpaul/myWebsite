@@ -1,8 +1,6 @@
 import React from "react";
 import './Projects.css';
 import Tag from "../Tag/Tag";
-import jenkinsImage from "./resources/JenkinsJob.png";
-import SlackIntegration from "./resources/SlackIntegration.png";
 
 class Projects extends React.Component{
     state = {
@@ -10,10 +8,6 @@ class Projects extends React.Component{
             {
                 "title": "Automating Acceptance test in VM",
                 "description": "Created a Jenkins pipeline in my Virtual Machine to run acceptance tests and made slack integration for status update.",
-                "imageSrcs": [
-                    jenkinsImage,
-                    SlackIntegration
-                ],
                 "tools": [
                     <Tag tagName="Helm"/>,
                     <Tag tagName="Kubernetes"/>,
