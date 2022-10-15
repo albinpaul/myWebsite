@@ -1,6 +1,10 @@
 :root{
-    --tag-bg-color: gold;
-    --tag-color: var(--clr-dark);
+    /* --tag-bg-color: gold; */
+    /* --tag-bg-color: #83f8e4; */
+    --tag-bg-color: dodgerblue;
+    
+
+    --tag-color: var(--clr-light);
 }
 
 .tag {
