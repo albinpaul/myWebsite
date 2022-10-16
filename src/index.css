@@ -65,8 +65,10 @@ h1, h2, h3 {
   
 }
 
-h1 {font-size: var(--fs-h1);
-color: darksalmon;}
+h1 {
+    font-size: var(--fs-h1);
+    color: tomato;
+}
 h2 {font-size: var(--fs-h2);}
 h3 {font-size: var(--fs-h3);}
 
